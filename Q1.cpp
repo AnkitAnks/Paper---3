@@ -10,8 +10,10 @@ int main()
     int n,m,i,j;
     cin>>n>>m;
     int arr1[n],arr2[m];
+        
     for(i=0;i<n;i++) cin>>arr1[i];
     for(i=0;i<m;i++) cin>>arr2[i];
+        
     set<int> unions,intersec;
     for(i=0;i<n;i++) unions.insert(arr1[i]);
     for(i=0;i<m;i++)
